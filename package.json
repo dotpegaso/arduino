@@ -1,0 +1,25 @@
+{
+  "name": "arduino",
+  "version": "1.0.0",
+  "description": "repository of arduino studies with nodejs and J5",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotpegaso/arduino.git"
+  },
+  "author": "dotpegaso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotpegaso/arduino/issues"
+  },
+  "homepage": "https://github.com/dotpegaso/arduino#readme",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "firmata": "^0.17.0",
+    "johnny-five": "^0.11.7",
+    "socket.io": "^2.0.4"
+  }
+}
