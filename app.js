@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 });
 
 five.Board().on('ready', function() {
-  console.log('AAAAAAAAAA');
+  console.log('Aight! Arduino conectado! :D');
 
   // Initial state
   let state = {
@@ -67,4 +67,4 @@ five.Board().on('ready', function() {
 const port = process.env.PORT || 3000;
 
 server.listen(port);
-console.log(`Server listening on http://localhost:${port}`);
+console.log(`Tudo certo, o site está rodando em: http://localhost:${port}`);
