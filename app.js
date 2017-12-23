@@ -14,10 +14,13 @@ app.get('/', function(req, res) {
 });
 
 five.Board().on('ready', function() {
+
   console.log('Aight! Arduino conectado! :D');
 
-  //code goes here
-  
+  let led = new five.Led(13);
+
+  led.on();
+    
 });
 
 const port = process.env.PORT || 3000;
